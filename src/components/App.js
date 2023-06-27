@@ -36,7 +36,7 @@ const App = () => {
     
   return (
     <div id="main">
-      <HolidayList cityList={cityList} />
+      <HolidayList city={cityList} />
     </div>
   )
 }
