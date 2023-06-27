@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import './../styles/App.css';
+import HolidayList from './HolidayList';
 
 const App = () => {
     const cityList = [{ name: 'Goa', country: 'India' },
@@ -35,7 +36,7 @@ const App = () => {
     
   return (
     <div id="main">
-               {/* Do not remove the main div */}
+      <HolidayList cityList={cityList} />
     </div>
   )
 }
